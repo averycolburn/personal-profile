@@ -6,6 +6,18 @@
     <title>Avery Colburn Profile</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+  </style>
 </head>
 <body>
 
@@ -16,14 +28,18 @@
   <a href="about-me.html">About Me</a>
 </div>
 
-<div>
-  <img src="./images/headshot2.JPG" alt="Avery Colburn Headshot" style="width:70%">
-  <h1>Avery Colburn</h1>
-  <p class="title">Software Engineer I</p>
+<div class="row">
+  <div class="column" style="background-color:#333;">
+    <img src="./images/headshot.JPG" alt="Avery Colburn Headshot" style="width:70%">
+  </div>
+  <div class="column" style="background-color:#aaa;">
+    <h1>Avery Colburn</h1>
+    <p class="title">Software Engineer I</p>
 
-  <a href="#https://www.linkedin.com/in/averycolburn/">
-    <i class="fa fa-linkedin"></i>
-  </a>
+    <a href="#https://www.linkedin.com/in/averycolburn/">
+      <i class="fa fa-linkedin"></i>
+    </a>
+  </div>
 </div>
 </body>
 

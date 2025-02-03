@@ -93,6 +93,7 @@ button:hover, a:hover {
     float: left;
     width: 50%;
     padding: 10px;
+    height: 100%;
 }
   
 .row:after {
@@ -104,4 +105,11 @@ button:hover, a:hover {
 hr.dotted {
     border-top: 2px dotted #bbb;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   
